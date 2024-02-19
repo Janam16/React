@@ -1,4 +1,24 @@
 {
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "This is React practice project",
+  "main": "home.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Janam16/React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Janam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Janam16/React/issues"
+  },
+  "homepage": "https://github.com/Janam16/React#readme",
   "devDependencies": {
     "parcel": "^2.11.0"
   }
