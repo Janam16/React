@@ -1,16 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const heading = React.createElement("div", { id: "parent" }, [
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", { id: "sibling" }, "Hello from React JS!"),
-    React.createElement("h2", { id: "sibling" }, "Hello from React JS!"),
-  ]),
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", { id: "sibling" }, "Hello from React JS!"),
-    React.createElement("h2", { id: "sibling" }, "Hello from React JS!"),
-  ]),
-]);
+const heading = (
+  <h1>
+    <div>Namastae React using JSX</div>
+  </h1>
+);
+console.log(heading);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(heading);
